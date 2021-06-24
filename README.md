@@ -3,7 +3,7 @@
  <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">pet-shop</h3>
+<h3 align="center">Sistema de votos Blockchain</h3>
 
 <div align="center">
 
@@ -29,74 +29,60 @@
 - [Built Using](#built_using)
 - [TODO](../TODO.md)
 - [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+Este sistema de registro de votos, es un acercamiento a la aplicación de tecnologia blockchain en el proceso democratico.
+
+Actualmente el sistema esta diseñado para un contrato "estatico", lo cual es conveniente debido a que no buscamos una alteración en el area de candidaturas.
+
+A continuación, se mostrará una guia para la instalación del proyecto y sus dependencias correspondientes.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+Es necesario que sigas la guia, la cual excplica las dependencias necesarias para probar el proyecto, posiblemente te sirva para mejorar. Aporta a este mismo para ayudar a mejorar a los compañeros.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+Truffle framework
 
 ```
-Give examples
+npm install -g truffle
+```
+
+Metamask: extención para navegadores, será el "login" para las cuentas y poder votar
+
+Ganache: La red blockchain de prueba
+
+```
+https://www.trufflesuite.com/ganache
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
+Debido a que esta aplicación es un proyecto con dependencias node, nos basta con usar el siguiente comando
 
 ```
-Give the example
+npm install
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+La aplicación tiene algunos unit test, usted es libre de agregar más, para correr estas pruebas unitarias, solo basta usar el siguiente comando.
 
 ```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
+truffle test
 ```
 
 ## 🎈 Usage <a name="usage"></a>
 
-Add notes about how to use the system.
+Durante el uso de pruebas del sistema, no use su cuenta real para probar, Ganache le ofrece 10 cuentas de prueba con suficientes fondos para realizar acciones.
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
-Add additional notes about how to deploy this on a live system.
+Esta aplicación esta diseñada para un uso en red local. Es necesario tener activo Ganache.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
+- [Ganache](https://www.trufflesuite.com/ganache) - Network
 - [NodeJs](https://nodejs.org/en/) - Server Environment
