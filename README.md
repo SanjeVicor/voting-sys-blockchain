@@ -59,6 +59,11 @@ Debido a que esta aplicación es un proyecto con dependencias node, nos basta co
 npm install
 ```
 
+Finalmente puedes correr el proyecto usando 
+
+```
+npm run dev
+```
 ## 🔧 Running the tests <a name = "tests"></a>
 
 La aplicación tiene algunos unit test, usted es libre de agregar más, para correr estas pruebas unitarias, solo basta usar el siguiente comando.
