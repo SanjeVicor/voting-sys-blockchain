@@ -24,11 +24,10 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
+- [Running the test](#tests)
 - [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
 
 ## 🧐 About <a name = "about"></a>
 
