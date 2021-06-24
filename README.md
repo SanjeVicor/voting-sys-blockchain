@@ -64,6 +64,12 @@ Finalmente puedes correr el proyecto usando
 ```
 npm run dev
 ```
+
+Si requiere reiniciar la red o contrato, corra el siguiente comando
+
+```
+truffle migrate --reset
+```
 ## 🔧 Running the tests <a name = "tests"></a>
 
 La aplicación tiene algunos unit test, usted es libre de agregar más, para correr estas pruebas unitarias, solo basta usar el siguiente comando.
